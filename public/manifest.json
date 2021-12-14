@@ -1,0 +1,15 @@
+{
+  "short_name": "Fleeg Whatsapp",
+  "name": "Integração Fleeg - Whatsapp",
+  "version": "1.0",
+  "manifest_version": 2,
+  "permissions": ["tabs", "https://web.whatsapp.com/"],
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Fleeg Whatsapp"
+  },
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
